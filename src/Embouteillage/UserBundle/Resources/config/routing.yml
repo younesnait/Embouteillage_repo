@@ -1,0 +1,6 @@
+blog_home:
+    pattern:  /
+    defaults: { _controller: UserBundle:Default:index }
+blog_home2:
+    pattern:  /index
+    defaults: { _controller: UserBundle:Default:index }
